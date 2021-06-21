@@ -1,1 +1,1 @@
-console.log("i want to fuck botho hard");
+console.log("coding is good");
