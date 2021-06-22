@@ -1,0 +1,138 @@
+.Rfront{
+   margin-top: 5%;
+    background-image: url(../src/pics/Kratos_Mugshot.jpg);
+    height: 100vh;   
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+  align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-bottom: 10px;
+
+    
+}
+.Rfront .header{
+    display: inline-block;
+   
+}
+.Rfront .header li{
+    display: inline-block;
+    margin-left: 50px;
+    text-shadow:  7px 7px 10px brown;
+}
+
+input[type="submit"]:hover{
+    background-color: blueviolet;
+    font-size: 300px;
+    font-style: italic;
+    display: inline-block;
+    
+}
+
+input[type="submit"]{
+    background-color:white;
+    font-size: 25px;
+    font-style: italic;
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+
+
+
+ .Lfront{
+     margin: 20px auto;
+    display:flex;
+    flex-direction: column;
+    width: fit-content;    
+
+}
+.Rfront .Lfront input{
+   
+    font-size: 15px;
+    height: 30px;
+    padding: 10px 8px;
+    min-width: 20em;
+    background-color:lavender;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0.3px;
+    margin-bottom: 50px;
+   margin: 20px auto;
+    transition: all 450ms ease-in-out;
+   
+}
+.Rfront .Lfront label{
+ 
+    font-size: 20px;
+    color: darkgreen;
+    
+}
+.Rfront .footer button{
+   font-size: 20px;
+   background-color:blue;
+   margin-top: 20px;
+   border: 1px solid blue;
+   width: 200px;
+	height: 42px;
+
+}
+.Rfront .footer button:hover{
+    font-size: 30px;
+    background-color:crimson;
+    margin-top: 20px;
+ }
+ 
+ 
+
+ 
+ .Rfront .header ul{
+    margin: 2px;
+	padding: 0;
+	position:absolute;
+	 right: 0.5%;
+	top:2%;
+ }
+ .Rfront .header ul li a{
+    color:blue;
+	text-indent: none;
+	font-size: 20px;
+ }
+ .Rfront .header ul li a:hover{
+    color:tomato;
+ }
+ .Rfront .header .btn{
+    display: inline-block;
+    border:  0.09px  solid white;
+ 	padding:  7px 19px;
+    
+   
+ }
+ .Bob .try input[type="text"]
+ {
+ background-color: whitesmoke;
+ padding: 10px 20px;
+ border-radius: 1em;
+ height: 20px;
+ margin-bottom: 10%;
+ margin-top: 10%;
+ }
+ .Bob
+ {
+     display: flex;
+align-items: center;
+flex-direction: column;
+
+
+ }
+ ok{
+     background-color:darkblue;
+ }
+ .in  h2{
+     margin-bottom: 20px;
+     color:red;
+     font-size: 44px;
+     text-transform: uppercase;
+    
+ }
+ 

@@ -1,0 +1,87 @@
+.container{
+    margin-top:  5%;
+    background-image: url(../src/pics/Ellie_and_Abby.png);
+    height: 100vh;   
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-bottom: 10px;
+
+    
+}
+ .python input{
+    
+      
+        font-size: 18px;
+        height: 30px;
+        padding: 10px 4px;
+        min-width: 20em;
+        background-color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 8%;
+        transition: all 450ms ease-in-out;
+    
+} 
+.python
+    {
+      
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+      
+
+}
+
+.options{
+    margin-top: 10%;
+    font-size: 30px;
+    color: blue;
+}
+.loop-op button{
+    font-size: 20px;
+    background-color:blue;
+    margin-top: 20px;
+    border: 1px solid blue;
+    width: 200px;
+     height: 42px;
+ 
+ }
+ .loop-op button:hover{
+
+    font-size: 30px;
+    background-color:rgb(220, 20, 20);
+    margin-top: 20px;
+ }
+ .loop h1{
+  
+     margin: 25%;
+     text-transform: uppercase;
+     color: black;
+     font-size: 30px;
+ }
+ 
+ 
+ .container .randy ul li a:hover{
+    color:deepskyblue;
+ }
+ .container .randy  ul{  
+
+	padding: 0;
+	position:absolute;
+	left: 20%;
+	top:2%;
+ }
+ .container .randy li{
+    display: inline-block;
+	margin-left:0.3%;
+ }
+ .container .randy ul li a
+{
+	color: black;
+	text-indent: none;
+	font-size: 20px;
+
+}
